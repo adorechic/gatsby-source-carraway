@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-source-carraway",
+  "version": "1.0.0",
+  "description": "A gatsbyjs source plugin for carraway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adorechic/gatsby-source-carraway.git"
+  },
+  "author": "adorechic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adorechic/gatsby-source-carraway/issues"
+  },
+  "homepage": "https://github.com/adorechic/gatsby-source-carraway#readme"
+}
