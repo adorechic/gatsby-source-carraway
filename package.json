@@ -16,6 +16,12 @@
     "url": "https://github.com/adorechic/gatsby-source-carraway/issues"
   },
   "homepage": "https://github.com/adorechic/gatsby-source-carraway#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "carraway"
+  ],
   "dependencies": {
     "node-fetch": "^2.2.0",
     "query-string": "^6.2.0"
