@@ -4,7 +4,8 @@
   "description": "A gatsbyjs source plugin for carraway",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "npm run-script build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,10 @@
   "dependencies": {
     "node-fetch": "^2.2.0",
     "query-string": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5"
   }
 }
